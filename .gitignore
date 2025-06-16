@@ -1,0 +1,76 @@
+# === PYTHON BACKEND (Quantia_AI_API) ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.db
+*.env
+.env.*
+venv/
+env/
+.venv/
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+*.egg-info/
+dist/
+build/
+models/
+*.onnx
+*.joblib
+*.pkl
+*.json
+
+# === DATA FILES ===
+data/*.csv
+!data/README.md  # <-- si tu veux laisser un fichier README dans le dossier data
+
+# === FASTAPI ===
+*.pid
+*.log
+instance/
+*.msgpack
+
+# === DOTNET FRONTEND ===
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings
+*.orig
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+TestResults/
+*.vspscc
+*.vssscc
+.vs/
+_ReSharper*/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Rider
+.idea/
+
+# === GENERAL ===
+*.swp
+*.bak
+*.tmp
+*.old
+Thumbs.db
+ehthumbs.db
+Desktop.ini

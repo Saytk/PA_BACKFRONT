@@ -1,0 +1,28 @@
+# Core data processing and analysis
+pandas>=1.3.0
+numpy>=1.20.0
+scikit-learn>=1.0.0
+
+# Machine learning libraries
+xgboost>=1.5.0
+lightgbm>=3.3.0
+# tensorflow>=2.8.0  # Uncomment for LSTM support
+
+# Data visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+# mplfinance>=0.12.0  # Uncomment for better OHLC visualization
+
+# Technical analysis
+# talib-binary>=0.4.0  # Uncomment if using TA-Lib for technical indicators
+# pandas-ta>=0.3.0  # Alternative to TA-Lib
+
+# Utilities
+tqdm>=4.62.0
+joblib>=1.1.0
+
+# Development tools
+pytest>=6.2.5
+black>=21.12b0
+flake8>=4.0.1
+mypy>=0.910
